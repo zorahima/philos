@@ -1,0 +1,17 @@
+.ditengah{
+  max-width:1000 ;
+  margin: 0 auto;
+  height:100vh ;
+  text-align: center;
+}
+.gambar {
+  max-width:795 ;
+  padding : auto;
+  margin: 0px;
+  height:60vh ;
+}
+
+body {
+  background-color: #9EC97C;
+}
+

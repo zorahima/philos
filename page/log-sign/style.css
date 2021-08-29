@@ -1,0 +1,35 @@
+.ditengah{
+  max-width:1000 ;
+  margin: 0 auto;
+  height:100vh ;
+  text-align: center;
+}
+.gambar {
+  max-width:795 ;
+  padding : auto;
+  margin: 0px;
+  height:60vh ;
+}
+
+body {
+  background-color: #9EC97C;
+}
+
+.registerbtn {
+  background-color: #9EC97C;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+.row{
+  text-align: center
+}

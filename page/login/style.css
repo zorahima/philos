@@ -1,8 +1,7 @@
 * {box-sizing: border-box}
 
-.container {
-  padding: 16px;
-  background-color:#9EC97C;
+#navbar {
+  background-color: #9EC97C;
 }
 
 input[type=text], input[type=password] {
@@ -24,8 +23,8 @@ hr {
   margin-bottom: 25px;
 }
 
-.registerbtn {
-  background-color: #04AA6D;
+.loginbtn {
+  background-color: #9EC97C;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -35,7 +34,7 @@ hr {
   opacity: 0.9;
 }
 
-.registerbtn:hover {
+.loginbtn:hover {
   opacity:1;
 }
 
@@ -48,18 +47,6 @@ a {
   text-align: center;
 }
 
-
-.gambar {
-  max-width:795 ;
-  padding : 0cm;
-  margin: 0 auto;
-  height:60vh ;
-  background-color: rgb(222, 235, 222);
-}
-
-.ditengah{
-  max-width:1000 ;
-  margin: 0 auto;
-  height:100vh ;
+.ditengah {
   text-align: center;
 }

@@ -2,8 +2,8 @@
 
 .container {
   padding: 16px;
-  background-color:#9EC97C;
-}
+  background-color:#fcfcfc;
+  }
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -25,7 +25,7 @@ hr {
 }
 
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: #9EC97C;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -48,18 +48,10 @@ a {
   text-align: center;
 }
 
-
-.gambar {
-  max-width:795 ;
-  padding : 0cm;
-  margin: 0 auto;
-  height:60vh ;
-  background-color: rgb(222, 235, 222);
+#navbar {
+  background-color: #9EC97C;
 }
 
-.ditengah{
-  max-width:1000 ;
-  margin: 0 auto;
-  height:100vh ;
+.ditengah {
   text-align: center;
 }

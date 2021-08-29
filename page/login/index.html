@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+
+  </script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+
+	</script>
+</head>
+
+
+  <body>
+  <body>
+	<div class="navbar">
+      <nav class="nav uk-navbar uk-navbar-container uk-margin " id="navbar">
+          <div class="uk-navbar-left">
+            <a class="uk-navbar-toggle" uk-icon="chevron-left" onclick="goBack()">
+            </a>Masuk Akun
+        </div>
+      </nav>
+  </div>
+
+<div class="ditengah">
+ <img data-src="./images/logoo.png" width="150px" height="150" alt="" uk-img>
+</div>
+
+<div>
+  <div class="container">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Masukkan Username" name="username" id="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Masukkan Password" name="psw" id="psw" required>
+
+    <p> <a href="#">Lupa Password</a></p>
+    <button type="submit" class="loginbtn" onclick= "location.href='../Home-page-philos/index.html'" type="button">Masuk Akun</button>
+  </div>
+
+  <div class="container signin">
+    <p>Belum punya akun? <a >Buat akun</a></p>
+  </div>
+</form>
+    <script src="script.js"></script>
+  </body>
+  <script>
+    function goBack(){
+      window.history.back();
+    }
+  </script>
+</html>

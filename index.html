@@ -5,27 +5,59 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body class="ditengah">
-    <div>
-      <div class="row">
-      <h1 class="text-center" style="color:#FCFCFC"> PHILOS </h1> 
-      </div>
-    </div>
+  </head>
 
+  <!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+
+  </script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+
+	</script>
+</head>
+
+  <body
+    <body class="ditengah">
     <img width="300px" height="300px" src="./images/logoo.png"height="50px" width="50px">
     <script src="script.js"></script>
     <div class="gambar">
 
-      <h2 class="text-center" style="color:#FCFCFC">Make Your Mental Health <br> As Priority</h2>
- 
+  <form action="action_page.php">
+  <div class="container">
+  <nav class="uk-navbar uk-navbar-container uk-margin">
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle"
+      uk-icon="chevron-left"="#">
+      </a>Survey
     </div>
-    <script>
-     setTimeout(function(){ 
-      window.location.href = "./page/Home-page-philos/index.html"
-    },3000) 
-    </script>
+  </nav>
+
+    <label for="Nama"><b>Nama</b></label>
+    <input type="text" placeholder="Masukkan Namamu" name="Nama" id="username" required>
+
+    <label for="jenis kelamin"><b>Jenis kelamin</b></label>
+    <input type="jenis kelamin" placeholder="Masukkan jenis kelamin mu" name="jenis kelamin" id="jenis kelamin" required>
+
+    <label for="tanggal"><b>Tanggal lahir</b></label>
+    <input type="text" placeholder="Masukkan Tanggal lahir mu" name="nomor" id="nomor" required>
+
+    <label for="nomor"><b>Status</b></label>
+    <input type="text" placeholder="Masukkan Nomor" name="nomor" id="nomor" required>
+
+    <label for="nomor"><b>Tanggal lahir</b></label>
+    <input type="text" placeholder="Masukkan Nomor" name="nomor" id="nomor" required>
+
+    <button type="submit" class="registerbtn" onclick="location.href='page/Home-page-philos/index.html'" type="button"
+    >Buat Akun</button>
+  </div>
+
+  <div class="container signin">
+    <p>Belum Punya Akun? <a href="#">Masuk</a></p>
+  </div>
+</form>
+    <script src="script.js"></script>
   </body>
 </html>
-
