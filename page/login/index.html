@@ -36,14 +36,17 @@
 
 <div>
   <div class="container uk-margin-medium-left">
-    <label for="username"><b>Username</b></label>
-    <input type="text" placeholder="Masukkan Username" name="username" id="username" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Masukkan Password" name="psw" id="psw" required>
-
-    <p> <a href="#">Lupa Password</a></p>
-    <button type="submit" class="loginbtn" onclick= "location.href='../Home-page-philos/index.html'" type="button">Masuk Akun</button>
+    <form name="myform" action="../Home-page-philos/index.html" onsubmit="validateForm()"method="post" required>
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Masukkan Username" name="fname" id="username" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Masukkan Password" name="psw" id="psw" required>
+  
+      <p> <a href="#">Lupa Password</a></p>
+      <button type="submit" class="loginbtn">Masuk Akun</button>
+    </form>
+    
   </div>
 
   <div class="container signin">
