@@ -29,20 +29,24 @@
       uk-icon="chevron-left" onclick="goBack()">
       </a>Buat Akun
     </div>
-  </nav>
-
-    <label for="username"><b>Username</b></label>
-    <input type="text" placeholder="Masukkan Username" name="username" id="username" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Masukkan Password" name="psw" id="psw" required>
-
-    <label for="nomor"><b>Nomor Telepon</b></label>
-    <input type="text" placeholder="Masukkan Nomor" name="nomor" id="nomor" required>
-
-    <p> Dengan membuat akun, Anda menyetujui <a href="#">Syarat & Privasi</a></p>
-    <button type="submit" class="registerbtn" onclick= "location.href='../survey/index.html'">Buat Akun</button>
+    </nav>
   </div>
+
+    <form name="myform" action="../Home-page-philos/index.html" onsubmit="validateForm()"method="post" required>
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Masukkan Username" name="fname" id="username" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Masukkan Password" name="psw" id="psw" required>
+  
+      <label for="nomor"><b>Nomor Telepon</b></label>
+      <input type="text" placeholder="Masukkan Nomor" name="nomor" id="nomor" required>
+  
+      <p> Dengan membuat akun, Anda menyetujui <a href="#">Syarat & Privasi</a></p>
+      <button type="submit" class="registerbtn" >Buat Akun</button>
+    </div>
+    </form>
+    
 
   <div class="container signin">
     <p>Punya akun? <a href="#">Masuk</a></p>
