@@ -5,13 +5,31 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+ <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+   </script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+  </script>
+</head>
+
+	<div class="navbar">
+    <nav class="nav uk-navbar uk-navbar-container uk-margin " id="navbar">
+      <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" uk-icon="chevron-left" onclick="goBack()">
+        </a>MI DIARY<img data-src="./images/mi-diary.png" width="100px" height="100" alt="" uk-img>
+      </div>
+    </nav>
+  </div>
+
   <body>
     <div id="myDIV" class="header">
-  <h2 style="margin:5px">Schedule</h2>
-  <input type="text" id="myInput" placeholder="Kegiatan...">
-  <span onclick="newElement()" class="addBtn">+</span>
-</div>
+      <h2 style="margin:5px">Schedule</h2>
+      <input type="text" id="myInput" placeholder="Kegiatan...">
+      <span onclick="newElement()" class="addBtn">+</span>
+    </div>
 
 <ul id="myUL">
   <li>Berolahraga di pagi hari</li>
@@ -22,4 +40,9 @@
 </ul>
     <script src="script.js"></script>
   </body>
+  <script>
+    function goBack(){
+      window.history.back();
+    }
+  </script>
 </html>
