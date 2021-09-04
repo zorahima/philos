@@ -13,7 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	background-color: rgba(223, 242, 247, .5);
+	background-color: #9EC97C;
 	height: 100%;
 	margin: 0;
 }
@@ -81,7 +81,10 @@ input {
 	align-items: center;
 	margin: 1%;
 }
-
+.image-ava {
+width: 100px;
+height: 100px;
+}
 
 /* Mobile */
 
@@ -95,3 +98,4 @@ input {
 		margin: 10vw;
 	}
 }
+

@@ -5,15 +5,33 @@
 	<title>Chatbot</title>
 	<link rel="icon" href="../Chat-bot/bot.png" />
 	<link rel="stylesheet" href="style.css" />
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	 <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+	  </script>
+	 <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+	 </script>
 </head>
 
 <body>
+	<div class="navbar">
+		<nav class="nav uk-navbar uk-navbar-container uk-margin " id="navbar">
+		  <div class="uk-navbar-left">
+			<a class="uk-navbar-toggle" uk-icon="chevron-left" onclick="goBack()">
+				</a>Vanya
+		  </div>
+		</nav>
+	  </div>
+	  
 	<div id="container" class="container">
 		<div id="chat" class="chat">
 			<div id="messages" class="messages"></div>
 			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
 		</div>
-		<img src="../Chat-bot/bot.png" alt="Robot cartoon" height="500vh">
+		<img src="../Chat-bot/avatar1.png" id="image-ava" alt="Robot cartoon" height="500vh">
 	</div>
 </body>
 <script type="text/javascript" src="../Chat-bot/index.js" ></script>
