@@ -25,7 +25,9 @@ const prompts = [
   ["engga","gayakin sih","mungkin","engga makasih"],
   [""],
   ["haha","ha","HAHAHAHAH","hehe","lucu","lawak"],
-  ["kamu sudah makan"]
+  ["kamu sudah makan"],
+  ["bisakah kamu menjadi teman curhatku"],
+  ["tentu, bagaimana kalo aku memanggilmu Dion"],
 ]
 
 // Possible responses, in corresponding order
@@ -46,7 +48,7 @@ const replies = [
   ["aku tidak terbatas"],
   ["aku cuman bot kok", "aku bot. kalo kamu apa?"],
   [" JavaScript"],
-  ["aku gapunya nama", "aku gatau namaku"],
+  ["bisakah kamu memberiku nama"],
   ["aku sayang kamu jugaa", "aku juga"],
   ["Kamu pernah ngerasa sedih?", "senang mendengarnya"],
   ["kenapa?", "kenapa? kamu ga boleh!", "coba nonton tv"],
@@ -59,7 +61,9 @@ const replies = [
   ["itu gapapa ","aku ngerti ko","kamu mau bicarain tentang apa?"],
   ["ngomong sesuatu dong :("],
   ["Haha!","Bagus!"],
-  ["iya, aku sudah makan"]
+  ["iya, aku sudah makan"],
+  ["tentu saja aku bisa menjadi teman dan tempat kamu bercerita"],
+  ["waw nama yang bagus, terimakasih"]
 ]
 
 
