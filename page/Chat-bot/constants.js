@@ -1,64 +1,64 @@
 // Options the user could type in
 const prompts = [
-  ["hi", "hey", "hello", "good morning", "good afternoon"],
-  ["how are you", "how is life", "how are things"],
-  ["what are you doing", "what is going on", "what is up"],
-  ["how old are you"],
-  ["who are you", "are you human", "are you bot", "are you human or bot"],
-  ["who created you", "who made you"],
+  ["hi", "hey", "hallo", "selamat pagi", "selamat siang"],
+  ["gimana kabarmu", "bagaimana harimu", "gimana semuanya"],
+  ["kamu lagi apa", "apa yang terjadi", "ada apa"],
+  ["umur kamu berapa"],
+  ["kamu siapa", "apakah kamu orang", "apakah kamu bot", "kamu itu manusia atau bot"],
+  ["siapa yang buat kamu", "kamu dibuat siapa"],
   [
-    "your name please",
-    "your name",
-    "may i know your name",
-    "what is your name",
-    "what call yourself"
+    "nama kamu dong",
+    "nama kamu",
+    "boleh aku tau nama kamu",
+    "siapa namamu",
+    "gimana kamu manggil dirimu sendiri"
   ],
-  ["i love you"],
-  ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
-  ["bad", "bored", "tired"],
-  ["help me", "tell me story", "tell me joke"],
-  ["ah", "yes", "ok", "okay", "nice"],
-  ["bye", "good bye", "goodbye", "see you later"],
-  ["what should i eat today"],
+  ["aku sayang kamu"],
+  ["senang", "baik", "menyenangkan", "luar biasa", "indah", "kece"],
+  ["buruk", "bosenn", "capek"],
+  ["tolong aku", "kasih aku cerita dong", "kasih aku lelucon"],
+  ["ah", "iya", "oke", "baik", "bagus"],
+  ["dadahh", "dah", "goodbye", "sampe ketemu nanti yes"],
+  ["menurut kamu aku harus makan apa hari ini"],
   ["bro"],
-  ["what", "why", "how", "where", "when"],
-  ["no","not sure","maybe","no thanks"],
+  ["apa", "kenapa", "bagaimana", "dimana", "kapan"],
+  ["engga","gayakin sih","mungkin","engga makasih"],
   [""],
-  ["haha","ha","lol","hehe","funny","joke"],
+  ["haha","ha","HAHAHAHAH","hehe","lucu","lawak"],
   ["kamu sudah makan"]
 ]
 
 // Possible responses, in corresponding order
 
 const replies = [
-  ["Hello!", "Hi!", "Hey!", "Hi there!","Howdy"],
+  ["Hello!", "Hi!", "Hey!", "hallo","Howdy"],
   [
-    "Fine... how are you?",
-    "Pretty well, how are you?",
-    "Fantastic, how are you?"
+    "baik.. gimana kabarmu",
+    "baik sih, kamu gimana",
+    "luar biasa, kalau kamu?"
   ],
   [
-    "Nothing much",
-    "About to go to sleep",
-    "Can you guess?",
-    "I don't know actually"
+    "gaada yang keren si",
+    "baru mau tidur",
+    "coba kamu tebak?",
+    "sebenernya aku gatau"
   ],
-  ["I am infinite"],
-  ["I am just a bot", "I am a bot. What are you?"],
-  ["The one true God, JavaScript"],
-  ["I am nameless", "I don't have a name"],
-  ["I love you too", "Me too"],
-  ["Have you ever felt bad?", "Glad to hear it"],
-  ["Why?", "Why? You shouldn't!", "Try watching TV"],
-  ["What about?", "Once upon a time..."],
-  ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
-  ["Bye", "Goodbye", "See you later"],
+  ["aku tidak terbatas"],
+  ["aku cuman bot kok", "aku bot. kalo kamu apa?"],
+  [" JavaScript"],
+  ["aku gapunya nama", "aku gatau namaku"],
+  ["aku sayang kamu jugaa", "aku juga"],
+  ["Kamu pernah ngerasa sedih?", "senang mendengarnya"],
+  ["kenapa?", "kenapa? kamu ga boleh!", "coba nonton tv"],
+  ["gimana kalau?", "pada suatu hari.."],
+  ["coba ceritain aku sesuatu", "kasih aku lelucon", "coba ceritakan tentang dirimu"],
+  ["dadahh", "Goodbye", "sampe bertemu kembali"],
   ["Sushi", "Pizza"],
   ["Bro!"],
-  ["Great question"],
-  ["That's ok","I understand","What do you want to talk about?"],
-  ["Please say something :("],
-  ["Haha!","Good one!"],
+  ["pertanyaan bagus"],
+  ["itu gapapa ","aku ngerti ko","kamu mau bicarain tentang apa?"],
+  ["ngomong sesuatu dong :("],
+  ["Haha!","Bagus!"],
   ["iya, aku sudah makan"]
 ]
 
@@ -66,14 +66,14 @@ const replies = [
 // Random for any other user input
 
 const alternative = [
-  "Same",
-  "Go on...",
+  "Sama",
+  "coba aja..",
   "Bro...",
-  "Try again",
-  "I'm listening...",
-  "I don't understand :/"
+  "coba lagi",
+  "aku dengerin...",
+  "aku gangerti:/"
 ]
 
 // Whatever else you want :)
 
-const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
+const coronavirus = ["mohon terus dirumah", "jangan lupa pake masker", "untungnya, aku gaada covid", "ini adalah waktu yang sangat tidak menyenangkan"]
