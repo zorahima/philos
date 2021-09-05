@@ -27,7 +27,7 @@ const prompts = [
   ["haha","ha","HAHAHAHAH","hehe","lucu","lawak"],
   ["kamu sudah makan"],
   ["bisakah kamu menjadi teman curhatku"],
-  ["tentu, bagaimana kalo aku memanggilmu Dion"],
+  ["tentu, gimana kalo Dion"],
 ]
 
 // Possible responses, in corresponding order
@@ -63,7 +63,7 @@ const replies = [
   ["Haha!","Bagus!"],
   ["iya, aku sudah makan"],
   ["tentu saja aku bisa menjadi teman dan tempat kamu bercerita"],
-  ["waw nama yang bagus, terimakasih"]
+  ["waw nama yang bagus, terimakasih"],
 ]
 
 
