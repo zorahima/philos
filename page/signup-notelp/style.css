@@ -2,7 +2,7 @@
 
 .container {
   padding: 16px;
-  background-color:#9EC97C;
+  background-color:#fcfcfc;
 }
 
 input[type=text], input[type=password] {
@@ -25,7 +25,7 @@ hr {
 }
 
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: #9EC97C;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -46,4 +46,12 @@ a {
 .signin {
   background-color: #f1f1f1;
   text-align: center;
+}
+
+.ditengah { 
+  text-align: center;
+}
+
+#navbar {
+  background-color: #9EC97C;
 }

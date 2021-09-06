@@ -1,5 +1,10 @@
 * {box-sizing: border-box}
 
+.container {
+  padding: 16px;
+  background-color:#fcfcfc;
+  }
+
 #navbar {
   background-color: #9EC97C;
 }
